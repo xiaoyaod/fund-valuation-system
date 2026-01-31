@@ -283,6 +283,18 @@ def get_accurate_valuation(code):
     
     return None
 
+def get_stock_name(stock_code):
+    """获取股票真实名称"""
+    try:
+        # 尝试从实时行情获取股票名称
+        df = ak.stock_zh_a_spot_em()
+        stock = df[df['代码'] == stock_code]
+        if not stock.empty:
+            return str(stock['名称'].values[0])
+    except:
+        pass
+    return None
+
 def get_fund_valuation(code, name):
     """获取基金完整信息"""
     print(f"[{code}] {name}...", end=" ")
@@ -313,16 +325,25 @@ def get_fund_valuation(code, name):
                 stock_holdings = portfolio[portfolio['资产类别'] == '股票']
                 if not stock_holdings.empty:
                     for _, row in stock_holdings.head(10).iterrows():
+                        stock_code = str(row['股票代码'])
+                        stock_name = str(row['股票名称'])
+                        
+                        # 如果股票名称是占位符，尝试获取真实名称
+                        if stock_name.startswith('股票') or stock_name == '' or len(stock_name) < 2:
+                            real_name = get_stock_name(stock_code)
+                            if real_name:
+                                stock_name = real_name
+                        
                         holdings.append({
-                            "股票名称": str(row['股票名称']),
+                            "股票名称": stock_name,
                             "持仓比例": float(row['占净值比例']),
-                            "股票代码": str(row['股票代码']),
+                            "股票代码": stock_code,
                         })
                     print(f"✓{len(holdings)}股")
                 else:
                     print("✗")
-        except:
-            print("✗")
+        except Exception as e:
+            print(f"✗持仓")
 
         return {
             "code": code,
