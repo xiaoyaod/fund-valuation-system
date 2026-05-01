@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30 17:53:36",
+  "last_updated": "2026-05-01 13:32:46",
   "total_count": 190,
   "success_count": 190,
   "realtime_count": 0,
@@ -1833,10 +1833,10 @@
     {
       "code": "040046",
       "name": "华安纳斯达克100指数(QDII)",
-      "estimation": 0.56,
-      "net_value": 7.6472,
-      "est_value": 7.6897,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 0.93,
+      "net_value": 7.6939,
+      "est_value": 7.7652,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -1844,10 +1844,10 @@
     {
       "code": "161125",
       "name": "易方达标普500指数(QDII-LOF)A",
-      "estimation": -0.5,
-      "net_value": 2.9749,
-      "est_value": 2.96,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 1.51,
+      "net_value": 2.9745,
+      "est_value": 3.0194,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -1855,10 +1855,10 @@
     {
       "code": "270042",
       "name": "广发纳斯达克100指数A(QDII)",
-      "estimation": 0.56,
-      "net_value": 7.6251,
-      "est_value": 7.6674,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 0.93,
+      "net_value": 7.6704,
+      "est_value": 7.7415,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -1877,10 +1877,10 @@
     {
       "code": "000055",
       "name": "广发纳斯达克100指数A(QDII)",
-      "estimation": 0.56,
-      "net_value": 1.1117,
-      "est_value": 1.1179,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 0.93,
+      "net_value": 1.118,
+      "est_value": 1.1284,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -1888,10 +1888,10 @@
     {
       "code": "000369",
       "name": "广发全球医疗保健(QDII)",
-      "estimation": -0.37,
-      "net_value": 2.337,
-      "est_value": 2.3284,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 1.11,
+      "net_value": 2.317,
+      "est_value": 2.3428,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -1899,10 +1899,10 @@
     {
       "code": "001668",
       "name": "汇添富全球互联混合(QDII)",
-      "estimation": -0.51,
-      "net_value": 4.8655,
-      "est_value": 4.8406,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 1.54,
+      "net_value": 4.9143,
+      "est_value": 4.9899,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -1910,10 +1910,10 @@
     {
       "code": "002423",
       "name": "华宝香港中小A(QDII-LOF)",
-      "estimation": -0.55,
-      "net_value": 0.4241,
-      "est_value": 0.4218,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 1.65,
+      "net_value": 0.4234,
+      "est_value": 0.4304,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -1943,10 +1943,10 @@
     {
       "code": "006479",
       "name": "广发纳斯达克生物科技指数(QDII)",
-      "estimation": 0.56,
-      "net_value": 7.4961,
-      "est_value": 7.5377,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 0.93,
+      "net_value": 7.5406,
+      "est_value": 7.6105,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -1954,10 +1954,10 @@
     {
       "code": "007844",
       "name": "华夏恒生互联网科技业ETF(QDII)联接A",
-      "estimation": -0.54,
-      "net_value": 0.8913,
-      "est_value": 0.8865,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 1.61,
+      "net_value": 0.9214,
+      "est_value": 0.9362,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -1998,10 +1998,10 @@
     {
       "code": "012868",
       "name": "华夏恒生科技ETF(QDII)联接A",
-      "estimation": -0.51,
-      "net_value": 5.9399,
-      "est_value": 5.9099,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 1.52,
+      "net_value": 5.9525,
+      "est_value": 6.043,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -2031,10 +2031,10 @@
     {
       "code": "513100",
       "name": "国泰纳斯达克100ETF",
-      "estimation": 0.56,
-      "net_value": 1.8513,
-      "est_value": 1.8616,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 0.93,
+      "net_value": 1.8625,
+      "est_value": 1.8798,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -2064,10 +2064,10 @@
     {
       "code": "159941",
       "name": "广发纳斯达克100ETF",
-      "estimation": 0.56,
-      "net_value": 1.3892,
-      "est_value": 1.3969,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 0.93,
+      "net_value": 1.3974,
+      "est_value": 1.4103,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
@@ -2075,10 +2075,10 @@
     {
       "code": "513500",
       "name": "博时标普500ETF(QDII)",
-      "estimation": -0.55,
-      "net_value": 2.3155,
-      "est_value": 2.3027,
-      "update_time": "2026-04-30 04:00",
+      "estimation": 1.67,
+      "net_value": 2.3153,
+      "est_value": 2.3539,
+      "update_time": "2026-05-01 04:00",
       "data_source": "天天基金实时",
       "holdings": [],
       "success": true
